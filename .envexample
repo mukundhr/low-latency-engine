@@ -1,0 +1,10 @@
+# Copy to .env and edit values as needed
+
+# Embedding model for sentence-transformers
+EMBEDDING_MODEL=BAAI/bge-small-en
+
+# Ollama model name
+LLM_MODEL=mistral
+
+# Ollama generate endpoint
+OLLAMA_URL=http://localhost:11434/api/generate

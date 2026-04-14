@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+
+# models (too large)
+models/llm/
+models/embeddings/
+
+# data
+data/raw/
+data/processed/
+data/index/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+#env
+.env
